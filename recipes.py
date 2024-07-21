@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 import asyncio
 import nest_asyncio
 
-TOKEN = 'Your token'
+TOKEN = '7079894102:AAElEBu6xnYGApAP-COrL7Cz8yATyj6WPYQ'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
